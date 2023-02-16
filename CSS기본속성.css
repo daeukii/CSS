@@ -1,0 +1,67 @@
+h1 { color: rgba(0, 0, 0, 0.5);}
+body 
+{ background-image: 
+    linear-gradient(rgba(255, 255, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url(./img/참새.jpg);
+background-repeat: no-repeat;
+background-position: right;
+background-attachment: fixed;
+}
+
+.text-center {
+text-align: center;
+}
+.text-deco {
+    text-decoration: underline dashed 3px black ;
+    text-deco
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px red ;
+}
+
+.test {}
+
+.font-mono {
+font-family: Vivaldi, "CookieRun Black";
+}
+
+.font-weight {
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.link a:link {color: olive}
+.link a:visited {color: brown}
+.link a:hover {color: coral;}
+.link a:active {color: khaki;}
+
+/*클래스이름 바로뒤에 상태를 붙여서 사용할수 있다*/
+.p-hover:hover {
+    color: cyan;
+}
+.list-mark {
+    list-style-type: lower-roman;
+}
+.list-mark {
+    list-style-image: url(./img/TxbZNH01.svg);
+    list-style-position: inside.;
+}
+/*두개이상의 태그나 클래스에 동일한 css를 넣고싶을때
+,를 통해서 함께 넣어줄 수 있다*/
+.table-col,
+.table-col td {border: 1px solid black;} 
+.table-col { border-collapse: collapse ;}
+
+.table-cell,
+.table-cell td {border: 1px solid blue;}
+.table-cell {empty-cells: show;}
