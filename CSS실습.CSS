@@ -1,0 +1,24 @@
+.font-title {
+    font-family: fantasy;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);}
+
+.list-box {
+    background-color: beige;
+    border: orange solid 2px;
+    width: 250px;}
+
+.list-deco { list-style-type: circle;}
+
+.list-deco a { text-decoration: none; color: black; font-weight: bold;}
+
+.list-deco a:hover {
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(red, green, blue, alpha);}
+
+.text-strong {
+    font-family: 궁서체;
+    color: green;
+    text-decoration-line: underline;}
+
+
+    

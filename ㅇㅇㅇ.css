@@ -1,0 +1,17 @@
+.link-home {
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.link-home:hover {
+    background-color: royalblue;
+}
+
+.link-blog:hover {
+    color: green;
+    font-weight: bold;
+    border-bottom: solid green 3px;
+}
