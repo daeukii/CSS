@@ -1,0 +1,32 @@
+@import url(./CSS기본속성.css);
+
+@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap');
+}
+
+input[type="button"] {
+    cursor: pointer;
+    background-image:url(./img/참새.jpg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.font {
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+
+    .gradient {
+        height: 50px
+        background: -webkit-linear-gradient (right, blue, yellow);    }
+
+    .gradient2 {
+        height: 50px
+        background: -webkit-linear-gradient (90deg, blue, red);    }
+    }
+
+    body {
+        background:-webkit-linear-gradient(270deg, black, white );
+    }

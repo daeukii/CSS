@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding:30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.nav {    
+    overflow: auto;
+    background-color: rgb(141, 214, 190);
+    padding-bottom: 15px;
+}
+.nav>ul {list-style: none;}
+
+.nav>ul>li {
+    float: left;
+    border-right:solid black 3px ;
+    padding: 0 10px;
+}
+
+.nav>ul>li:last-child {border: none;}
+
+.main {
+    background-color: darkgreen;
+    padding: 5px;
+    width: 800px;
+    margin: auto;
+    min-height: 500px;
+}
+
+.dd {
+    list-style: none;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    height: 50px;
+    text-align: center;
+    padding: 50px;
+}

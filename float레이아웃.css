@@ -17,7 +17,9 @@ margin: 5px 0;}
 
 .main {background-color: burlywood;
     height: 200px;
-    paddin;
+    padding: 5px;
+    /*float를 사용하지않은 곳에서는 scroll이 생긴다*/
+    overflow: auto;
 }
 
 .section1, .section2 {background-color: darkorchid;
@@ -30,4 +32,43 @@ margin: 5px 0;}
 
 .section2{
     margin-left: 110px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.header-border {border: red 2px solid;
+    text-align: center}
+
+.nav-border {border: blue 2px solid;
+float: left;
+width: 150px;
+text-align: center}
+
+.section-border {border: yellow 2px solid;
+margin-left: 154px;
+text-align: center}
+
+.footer-border {border: green 2px solid;
+clear: both;
+text-align: center;}
+
+.float-right {
+    float:right;
+}
+
+.align-margin {
+    width: 150px;
+    margin: 0 auto;    
+}
+
+.align-position {
+    position: absolute;
+    left: 40%;
+}
+
+.container {
+    background-color: yellow;
+    overflow: auto;
 }

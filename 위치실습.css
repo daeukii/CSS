@@ -1,0 +1,39 @@
+.bookmark {
+background-color: burlywood;
+border: black 5px solid;
+width: 170px;
+padding: 0 10px;
+position: fixed;
+top:0;
+right: 0;
+}
+
+.bookmark ul {
+    list-style: none
+}
+
+.bookmark ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bookmark ul a:hover {
+    color: white;
+}
+
+ul.list{
+    overflow: auto;
+    padding: 20px;
+    list-style: none;
+    background-color: yellow;
+}
+
+.first {
+    float: left;
+}
+
+ul.list li {
+    float:left;
+    background-color: darkgreen;
+    padding: 5px 10px;
+}
